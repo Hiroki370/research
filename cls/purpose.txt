@@ -1,0 +1,4 @@
+Research on Clustering Algorithm based on Infomation Theory
+
+Why clustering algorithm in marketing?
+-> optimize marketing measures for each cluster
