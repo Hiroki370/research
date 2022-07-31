@@ -2,3 +2,15 @@ Research on Clustering Algorithm based on Infomation Theory
 
 Why clustering algorithm in marketing?
 -> optimize marketing measures for each cluster
+
+K-means:
+	easy to understand the algorithm,
+	but whether its output reflects useful information is doutful since K-Means considers only the distance of points.
+	
+My Research:
+	Clustering based on Information Theory.
+	Main Idea:
+		Since Clustering is grouping "similar" points,
+		the average of the entropy conditioned on a cluster should decrease.
+		(This doesn't mean that any conditioned entropy should decrease.)
+		-> optimize clustering by minimize conditioned entropy.
